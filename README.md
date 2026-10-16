@@ -5,7 +5,7 @@
 
 I work where **machine learning meets security and applied maths**: adversarial robustness, federated unlearning, surrogate modelling and deep learning with PyTorch. I like building constrained-optimisation pipelines on neural networks and evaluating them carefully, with ablation studies and parameter sweeps.
 
-- 🎯 Looking for a **final-year internship (4–5 months, 2027)** in machine learning, surrogate modelling or AI security
+- 🎯 Looking for a **final-year internship (4–6 months, 2027)** in machine learning, surrogate modelling or AI security
 - 🏆 **1st place**, Huawei ICT Competition 2025–2026, national phase (networking), Morocco
 
 ---
