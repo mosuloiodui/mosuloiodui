@@ -10,10 +10,10 @@ Engineering student at **INPT**, working at the intersection of **machine learni
 
 ## 🚀 Featured projects
 
-### 🧠 [Federated Unlearning for IDS (FedAF)](https://github.com/mosuloiodui/FU)
-Makes a federated intrusion-detection model forget one client's attack class without retraining, using knowledge distillation and Elastic Weight Consolidation.
-Recall on the forgotten class drops from **99% to 3%** while normal traffic stays at **0.98 F1**.
-`PyTorch` · `Federated Learning` · `UNSW-NB15`
+### 🧠 [FedAF-P: Federated Unlearning for IoT IDS](https://github.com/mosuloiodui/FU)
+A persistent federated unlearning protocol over MQTT. It combines local distillation + EWC with three server/client protection layers so that the other clients cannot re-learn the forgotten class.
+The `Generic` class drops to **F1 = 0.000 on all 3 clients** in under 10 rounds, while macro F1 on the retained classes moves by **at most −0.018**.
+`PyTorch` · `FedAvg / FedProx` · `MQTT` · `UNSW-NB15`
 
 ### 🛡️ [Adversarially Robust Intrusion Detection](https://github.com/mosuloiodui/ROBUST-IDS)
 Carlini & Wagner attacks on an MLP IDS: perturbing just three traffic features bypasses **98%+** of detections. An Isolation Forest defence catches them with **AUC 0.997**, and an adaptive attacker tries to evade it.
